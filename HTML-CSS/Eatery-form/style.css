@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+input,
+.text-area {
+  height: 35px;
+  width: 100%;
+  padding-left: 3px;
+  border: 2px solid black;
+  border-radius: 4px 4px 0px 0px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.text-area {
+  width: 100%;
+}
+
+label {
+  font-size: 1em;
+}
+
+.span-100 {
+  grid-column: 1/2;
+}
+
+textarea {
+  width: 100%;
+}
