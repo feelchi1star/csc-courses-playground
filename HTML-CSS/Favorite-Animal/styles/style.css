@@ -1,0 +1,17 @@
+nav{
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: .5rem;
+  
+  
+}
+nav> a{
+  
+  text-decoration: none;
+  color:white;
+  font-weight: 800;
+}
+

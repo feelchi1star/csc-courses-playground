@@ -44,3 +44,19 @@ label {
 .span-100 {
   grid-column: span 2 / span 2;
 }
+
+
+
+@media(max-width:540px){
+  
+  
+  .grid{
+    display: flex;
+    gap: 10px;
+    flex-direction: column
+  }
+  
+  
+  
+  
+}
