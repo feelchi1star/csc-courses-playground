@@ -1,0 +1,30 @@
+<DOCTYPE html> 
+<html> 
+ <head> 
+  <title>JavaScript sum Calculator</title> 
+ </head> 
+ <body> 
+  <form name="cal"> 
+   <label>A JavaScript Calculator to find sum</label><br> 
+   <label>First Number</label> 
+   <input type="number" name="num1"><br> 
+   <label>Second Number</label> 
+   <input type="number" name="num2"><br> 
+   <label>Result</label> 
+   <input type="text" name="res"><br> 
+   <input type="button" name="cal" value="calculate" 
+onClick="sumNum()"> 
+  </form> 
+  <script type="text/javascript"> 
+   function sumNum() 
+   { 
+    var num1, num2, res; 
+    num1=Number(document.cal.num1.value); 
+    num2=Number(document.cal.num2.value); 
+    res=num1+num2; 
+    document.cal.res.value=res;
+    
+     } 
+  </script> 
+ </body> 
+</html>
